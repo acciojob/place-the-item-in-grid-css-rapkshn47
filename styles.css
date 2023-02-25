@@ -1,2 +1,19 @@
 
-/* Your CSS Code here. */
+.holder{
+	display: grid;
+	grid-template-columns: 200px 200px;
+	grid-template-rows: 200px 200px;
+}
+
+.item{
+	width: 200px;
+	height: 200px;
+}
+
+.item-1{
+	background-color: green;
+}
+
+.item-2{
+	background-color: red;
+}
